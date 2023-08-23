@@ -12,7 +12,7 @@ const frontEndRouter = require("./routes/frontEndRouter");
 const MongoUrl = "mongodb+srv://amirrafay135:XyImBf1YGtzacNcK@blogcluster.drny97g.mongodb.net/Blog";
 
 const app = express();
-const port = process.env.PORT || 4200;
+const port = process.env.PORT || 5000;
 
 // Database Connection
 mongoose.connect(MongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
