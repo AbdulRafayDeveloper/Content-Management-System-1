@@ -9,7 +9,7 @@ const postRouter = require("./routes/postRouter");
 const categoryRouter = require("./routes/categoryRouter");
 const frontEndRouter = require("./routes/frontEndRouter");
 
-const MongoUrl = "mongodb://localhost:27017/blog";
+const MongoUrl = "mongodb+srv://amirrafay135:XyImBf1YGtzacNcK@blogcluster.drny97g.mongodb.net/Blog";
 
 const app = express();
 const port = process.env.PORT || 4200;
